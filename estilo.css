@@ -28,7 +28,7 @@ header {
 /* Título con la fuente Allura */
 .titulo-allura {
     font-family: 'Allura', cursive; /* Fuente Allura solo para este título */
-    font-size: 8em; /* Aumenta el tamaño del título */
+    font-size: 3em; /* Aumenta el tamaño del título */
     margin: 0;
     padding: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para un mejor contraste */
@@ -184,7 +184,7 @@ button:hover {
 /* Nombres de los novios */
 .nombres-novios h1 {
     font-family: 'Allura', cursive; /* Usa la fuente Allura */
-    font-size: 5em; /* Tamaño grande para los nombres */
+    font-size: 2em; /* Tamaño grande para los nombres */
     color: BLACK; /* Color de texto */
     text-align: center; /* Centra los nombres */
     margin: 20px 0; /* Espacio alrededor */
