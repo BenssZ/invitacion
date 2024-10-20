@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> <!-- Fuente Allura -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Archivo de estilos -->
+</head>
+<body>
+    <header>
+        <div class="texto-header">
+            <h1 class="titulo-allura">¡Nos casamos!</h1> <!-- Solo este título tiene la fuente Allura -->
+            <div class="imagen-header">
+                <img src="fotos/imagen.jpg" alt="Imagen del evento" class="seccion-img">
+            </div>
+            <div class="nombres-novios">
+            <h1> Ana Laura & Cesar Omar </h1> 
+            </div>
+        </div>
+    </header>
+
+    <section id="evento">
+        <div class="frase">
+        <h2>“El amor jamás dejará de existir” - Corintos: 13:8</h2> <!-- Título arriba de la imagen -->
+         </div>
+    
+        <h2>Detalles del Evento</h2>
+        <p><strong>Fecha:</strong> <span id="fecha-evento">20 de diciembre de 2024</span></p>
+        <p><strong>Días restantes:</strong> <span id="contador"></span></p>
+    </section>
+
+    <section id="direccion">
+        <img src="imagen-direccion.jpg" alt="Imagen de la ubicación" class="seccion-img">
+        <h2>Dirección del Evento</h2>
+        <p>[Dirección del evento]</p>
+        <a href="https://www.google.com/maps/place/[COORDENADAS_DEL_EVENTO]" target="_blank" class="boton-maps">
+            Ver ubicación en Google Maps
+        </a>
+    </section>
+
+    <section id="itinerario">
+        <img src="imagen-itinerario.jpg" alt="Imagen de itinerario" class="seccion-img">
+        <h2>Itinerario del Día</h2>
+        <ul>
+            <li>14:00 - Ceremonia</li>
+            <li>15:30 - Recepción</li>
+            <li>18:00 - Fiesta</li>
+        </ul>
+    </section>
+
+    <section id="confirmacion">
+        <img src="imagen-confirmacion.jpg" alt="Imagen de confirmación" class="seccion-img">
+        <h2>Confirma tu Asistencia</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="confirmados">Número de confirmados:</label>
+            <select id="confirmados" name="confirmados" required>
+                <option value="">Selecciona el número</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <button type="submit">Confirmar</button>
+        </form>
+    </section>
+
+    <section id="regalos">
+        <img src="imagen-regalos.jpg" alt="Imagen de regalos" class="seccion-img">
+        <h2>Mesas de Regalos</h2>
+        <a href="https://www.liverpool.com.mx/" target="_blank" class="boton-regalos">Ver nuestras mesas de regalos</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
